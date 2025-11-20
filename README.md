@@ -1,2 +1,4 @@
-# machine-learning-exercises
-A collection of my machine learning practice exercises including data preprocessing, model training, evaluation, and algorithms.
+# Machine Learning Exercises
+
+This repository contains my machine learning practice exercises, including data preprocessing, algorithms, model evaluation, and hands-on coding tasks
+
