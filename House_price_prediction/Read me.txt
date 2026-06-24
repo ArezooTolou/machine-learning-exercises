@@ -1,0 +1,53 @@
+House Price Prediction (Tehran)
+📌 Overview
+
+This project builds a machine learning model to predict house prices in Tehran based on property features such as area, number of rooms, and facilities (parking, elevator, warehouse).
+
+The workflow includes:
+
+Data cleaning and preprocessing
+Exploratory Data Analysis (EDA)
+Feature engineering
+Model training (Ridge Regression)
+Model evaluation using R² score and cross-validation
+📊 Dataset
+
+The dataset contains real estate listings with features such as:
+
+Area (m²)
+Number of rooms
+Address
+Price (Toman / USD)
+Parking, Elevator, Warehouse (boolean features)
+
+Note: Outliers and invalid data points were removed during preprocessing to improve model performance.
+
+⚙️ Technologies Used
+Python
+Pandas, NumPy
+Matplotlib, Seaborn
+Scikit-learn
+🧠 Machine Learning Approach
+Preprocessing
+Removed missing and invalid values
+Filtered outliers using quantiles
+Converted boolean features to numeric format
+Standardized numerical features
+Model
+Ridge Regression was used for prediction
+Train-test split (80/20)
+5-fold cross-validation for evaluation
+📈 Results
+R² Score (Test Set): ~0.xx
+Mean Cross-Validation R²: ~0.xx
+
+(Replace with your actual results after running the model)
+
+📉 Visualizations
+
+The project includes:
+
+Price vs Area scatter plot
+Price distribution by number of rooms
+Price comparison across top addresses
+Impact of facilities on price
